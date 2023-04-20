@@ -1,0 +1,19 @@
+
+.page {
+    display: block;
+}
+.page .page-item {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 5px;
+    height: 18px;
+    line-height: 18px;
+    font-style: italic;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.page .page-item.page-current {
+    background: #2F577D;
+}
