@@ -71,7 +71,7 @@
       input.value = event.target.innerHTML;
       const valInput = parent.querySelector('input[data-type="value"]');
       valInput.value = event.target.getAttribute('data-value');
-      if (valInput.hasAttribute('onchange')) valInput.onchange(input);
+      if (valInput.hasAttribute('onchange')) valInput.onchange(valInput);
     }
   },
   /**
